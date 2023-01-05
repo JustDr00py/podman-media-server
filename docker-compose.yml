@@ -7,7 +7,7 @@ services:
       - PGID=1000
       - TZ=America/New_York
     volumes:
-      - /path/to/data:/config
+      - /path/to/data:/config:z
       - /path/to/tvseries:/tv #optional
       - /path/to/downloadclient-downloads:/downloads #optional
     ports:
